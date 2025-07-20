@@ -1,7 +1,7 @@
 # 🐔 Poultry Disease Detector
 
-A deep learning web application for detecting common poultry diseases using images of chickens. Powered by **MobileNetV2** and a custom-trained Keras model, this project aims to assist poultry farmers with early disease detection and better 
-https://share.google/FKOobA3bdWy3yWq2G
+    A deep learning web application for detecting common poultry diseases using images of chickens. Powered by **MobileNetV2** and a custom-trained Keras model, this project aims to assist poultry farmers with early disease detection and better 
+image-url https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK8pujoK__eVDkualx9jWsrhTWAtXkyto6cIIu4XH5FN8rda1XQFExmsRo&s=10
 ---
 
 ## 🚀 Features
