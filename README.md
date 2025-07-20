@@ -49,10 +49,10 @@ project_folder/
 
 ### 1. Install Dependencies
 
-```bash
-pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 
-2. Run the Web App
+####2. Run the Web App
 bash
 Copy
 Edit
@@ -60,8 +60,8 @@ python app.py
 The app will start at:
 http://127.0.0.1:5000
 
-🧠 How to Train Your Own Model
-If you'd like to retrain the model:
+#####🧠 How to Train Your Own Model
+     If you'd like to retrain the model:
 
 bash
 Copy
@@ -69,10 +69,10 @@ Edit
 python train_model.py
 Make sure your dataset is placed under the dataset/ directory with subfolders like train, test, and val, each containing class folders (e.g., healthy, coccidiosis, etc.).
 
-##📈 Sample Dataset Structure
-bash
-Copy
-Edit
+######📈 Sample Dataset Structure
+       bash
+       Copy
+       Edit
 dataset/
 ├── train/
 │   ├── healthy/
@@ -86,7 +86,7 @@ dataset/
     ├── healthy/
     ├── coccidiosis/
     └── ...
-##📸 Example Predictions
+#######📸 Example Predictions
 ##Image	Prediction
 	Coccidiosis
 	Healthy
