@@ -52,7 +52,7 @@ project_folder/
     ```bash
     pip install -r requirements.txt
 
-####2. Run the Web App
+### 2. Run the Web App
 bash
 Copy
 Edit
@@ -60,7 +60,7 @@ python app.py
 The app will start at:
 http://127.0.0.1:5000
 
-#####🧠 How to Train Your Own Model
+### 🧠 How to Train Your Own Model
      If you'd like to retrain the model:
 
 bash
@@ -69,55 +69,55 @@ Edit
 python train_model.py
 Make sure your dataset is placed under the dataset/ directory with subfolders like train, test, and val, each containing class folders (e.g., healthy, coccidiosis, etc.).
 
-######📈 Sample Dataset Structure
+### 📈 Sample Dataset Structure
        bash
        Copy
        Edit
-dataset/
-├── train/
-│   ├── healthy/
-│   ├── coccidiosis/
-│   └── ...
-├── val/
-│   ├── healthy/
-│   ├── coccidiosis/
-│   └── ...
-└── test/
+    dataset/
+    ├── train/
+    │   ├── healthy/
+    │   ├── coccidiosis/
+    │   └── ...
+    ├── val/
+    │   ├── healthy/
+    │   ├── coccidiosis/
+    │   └── ...
+    └── test/
     ├── healthy/
     ├── coccidiosis/
     └── ...
-#######📸 Example Predictions
-##Image	Prediction
+### 📸 Example Predictions
+## Image	Prediction
 	Coccidiosis
 	Healthy
 
-# 👤 Author
-G. Hema Harshith Reddy
-GitHub: Harshith-45
-Email: hemaharshithreddygulimcherla@gmail.com
+## 👤 Author
+    G. Hema Harshith Reddy
+    GitHub: Harshith-45
+    Email: hemaharshithreddygulimcherla@gmail.com
 
-# 📌 License
-This project is for educational and research purposes. Attribution appreciated.
+## 📌 License
+    This project is for educational and research purposes. Attribution appreciated.
 
-# 💡 Future Enhancements
-Deploy to Hugging Face or Render
+## 💡 Future Enhancements
+    Deploy to Hugging Face or Render
 
-Real-time webcam disease detection
+    Real-time webcam disease detection
 
-Integration with farmer-friendly mobile apps
+    Integration with farmer-friendly mobile apps
 
-yaml
-Copy
-Edit
+    yaml
+    Copy
+    Edit
 
 ---
 
-### ✅ To Use:
-1. Copy this into a file named `README.md`
-2. Save it in your project folder
-3. Run:
+ ### ✅ To Use:
+    1. Copy this into a file named `README.md`
+    2. Save it in your project folder
+    3. Run:
 
-##```bash
-git add README.md
-git commit -m "Add README.md"
-git push
+### ```bash
+    git add README.md
+    git commit -m "Add README.md"
+    git push
