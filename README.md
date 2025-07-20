@@ -52,7 +52,7 @@ project_folder/
 ```bash
 pip install -r requirements.txt
 
-##2. Run the Web App
+2. Run the Web App
 bash
 Copy
 Edit
@@ -60,7 +60,7 @@ python app.py
 The app will start at:
 http://127.0.0.1:5000
 
-##🧠 How to Train Your Own Model
+🧠 How to Train Your Own Model
 If you'd like to retrain the model:
 
 bash
@@ -91,20 +91,20 @@ dataset/
 	Coccidiosis
 	Healthy
 
-##👤 Author
+# 👤 Author
 G. Hema Harshith Reddy
 GitHub: Harshith-45
 Email: hemaharshithreddygulimcherla@gmail.com
 
-##📌 License
+# 📌 License
 This project is for educational and research purposes. Attribution appreciated.
 
-##💡 Future Enhancements
+# 💡 Future Enhancements
 Deploy to Hugging Face or Render
 
-##Real-time webcam disease detection
+Real-time webcam disease detection
 
-##Integration with farmer-friendly mobile apps
+Integration with farmer-friendly mobile apps
 
 yaml
 Copy
