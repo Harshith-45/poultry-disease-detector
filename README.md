@@ -1,9 +1,7 @@
 # 🐔 Poultry Disease Detector
 
-A deep learning web application for detecting common poultry diseases using images of chickens. Powered by **MobileNetV2** and a custom-trained Keras model, this project aims to assist poultry farmers with early disease detection and better management.
-
-![App Screenshot](static/images/sick_chicken.jpg)
-
+A deep learning web application for detecting common poultry diseases using images of chickens. Powered by **MobileNetV2** and a custom-trained Keras model, this project aims to assist poultry farmers with early disease detection and better 
+https://share.google/FKOobA3bdWy3yWq2G
 ---
 
 ## 🚀 Features
@@ -27,20 +25,20 @@ A deep learning web application for detecting common poultry diseases using imag
 
 ## 📁 Folder Structure
 
-project_folder/
-│
-├── app.py # Flask backend
-├── train_model.py # Model training script
-├── quick_model.h5 # Trained model file
-├── dataset/ # Your training/test/val image folders
-│ └── train/val/test/
-├── static/ # Static files (CSS/images/uploads)
-│ ├── uploads/ # Uploaded test images
-│ └── images/ # App visuals
-├── templates/ # HTML templates
-│ └── index.html
-│ └── predict.html
-└── requirements.txt # Python dependencies
+    project_folder/
+    │
+    ├── app.py # Flask backend
+    ├── train_model.py # Model training script
+    ├── quick_model.h5 # Trained model file
+    ├── dataset/ # Your training/test/val image folders
+    │ └── train/val/test/
+    ├── static/ # Static files (CSS/images/uploads)
+    │ ├── uploads/ # Uploaded test images
+    │ └── images/ # App visuals
+    ├── templates/ # HTML templates
+    │ └── index.html
+    │ └── predict.html
+    └── requirements.txt # Python dependencies
 
 
 ---
@@ -53,21 +51,21 @@ project_folder/
     pip install -r requirements.txt
 
 ### 2. Run the Web App
-bash
-Copy
-Edit
-python app.py
-The app will start at:
-http://127.0.0.1:5000
+    bash
+    Copy
+    Edit
+    python app.py
+    The app will start at:
+    http://127.0.0.1:5000
 
 ### 🧠 How to Train Your Own Model
      If you'd like to retrain the model:
 
-bash
-Copy
-Edit
-python train_model.py
-Make sure your dataset is placed under the dataset/ directory with subfolders like train, test, and val, each containing class folders (e.g., healthy, coccidiosis, etc.).
+    bash
+    Copy
+    Edit
+    python train_model.py
+    Make sure your dataset is placed under the dataset/ directory with subfolders like train, test, and val, each containing class folders (e.g., healthy, coccidiosis, etc.).
 
 ### 📈 Sample Dataset Structure
        bash
